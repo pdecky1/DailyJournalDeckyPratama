@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Daily Journal - Decky</title>
+
+      <!-- Style -->
+      <link href="../src/output.css" rel="stylesheet">
+      <link rel="stylesheet" href="../style/style.css">
+
+      <!-- Font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-Montserrat bg-[#15151D]">
+      <section class="h-full w-full ">
+
+            <header class="mx-auto container text-white py-5 relative">
+                  <nav class="flex flex-wrap items-center lg:py-0 py-2 md:mx-0 mx-5">
+                        <div class="flex flex-1 items-center">
+                              <a href="/" class="flex">
+                                    <img src="../asset/images/logo.png" alt="">
+                              </a>
+                        </div>
+                        <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+                              <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                    <title>menu</title>
+                                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                              </svg>
+                        </label>
+                        <input class="hidden" type="checkbox" id="menu-toggle" />
+                        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+                              <nav>
+                                    <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-20 lg:text-lg lg:flex  lg:pt-0">
+                                          <li class="py-2 lg:py-0 ">
+                                                <a class="text-white font-medium" href="#" >Home</a>
+                                          </li>
+                                          <li class="py-2 lg:py-0 ">
+                                                <a class="text-white hover:pb-4 hover:border-b-4 hover:border-white" href="./journal.html" >Journal</a>
+                                          </li>
+                                          <li class="py-2 lg:py-0 ">
+                                                <a class="text-white hover:pb-4 hover:border-b-4 hover:border-white" href="./galerry.html" >Gallery</a>
+                                          </li>
+                                          
+                                    </ul>
+                              </nav>
+                        </div>
+                  </nav>
+            </header>
+
+            <div class="w-full container h-auto flex flex-col md:flex-row  md:mx-auto px-5 md:px-0 md:py-16 py-5 gap-x-4 md:gap-y-0 gap-y-5">
+                  <div class="md:w-1/12 w-full ">
+                        <div class="w-full h-full hidden md:flex flex-row justify-center items-center gap-x-10">
+                              <div class="flex flex-col gap-y-10 ">
+                                    <a href="https://www.linkedin.com/in/pdecky1/">
+                                          <img src="../asset/images/linkedin.png" alt="">
+                                    </a>
+                                    <a href="https://github.com/pdecky1">
+                                          <img src="../asset/images/git.png" alt="">
+                                    </a>
+                                    <a href="https://web.facebook.com/decky.pratama.3152">
+                                          <img src="../asset/images/facebook.png" alt="">
+                                    </a>
+                                    <a href="https://www.instagram.com/pdec8__/">
+                                          <img src="../asset/images/instagram.png" alt="">
+                                    </a>
+                              </div>
+                              <div class="h-full w-1 bg-white"></div>
+                        </div>
+                        <div class="md:hidden flex flex-col justify-center items-center gap-y-3 py-3">
+                              <div class="flex flex-row gap-x-10 justify-center items-center">
+                                    <a href="/">
+                                          <img src="../asset/images/linkedin.png" alt="">
+                                    </a>
+                                    <a href="/">
+                                          <img src="../asset/images/git.png" alt="">
+                                    </a>
+                                    <a href="/">
+                                          <img src="../asset/images/facebook.png" alt="">
+                                    </a>
+                                    <a href="/">
+                                          <img src="../asset/images/instagram.png" alt="">
+                                    </a>
+                              </div>
+                              <div class="w-full h-1 bg-white"></div>
+                        </div>
+                  </div>
+                  <div class="md:w-9/12 w-full ">
+                        <div class="flex flex-col justify-center items-center md:items-start text-white gap-y-7">
+                              <h1 class="font-bold text-4xl">Journal</h1>
+                              <div class="flex flex-col h-[595px] overflow-scroll gap-y-2" id="homeJournal">
+                                    
+                              </div>
+                              <div class="w-full flex flex-row items-center justify-end gap-x-3">
+                                    <div class="w-20 h-[1px] bg-white"></div>
+                                    <a href="./journal.html">
+                                          <h1>More Journal</h1>
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="md:w-2/12 w-full h-full">
+                        <div class="flex w-full h-full flex-col justify-between items-center md:items-start text-white gap-y-7">
+                              <h1 class="font-bold text-4xl">Gallery</h1>
+                              <div class="flex w-full h-[595px] overflow-scroll flex-col gap-y-2" id="homeGallery">
+
+                              </div>
+                              <div class="w-full flex flex-row items-center justify-center gap-x-3">
+                                    <div class="w-10 h-[1px] bg-white"></div>
+                                    <a href="./galerry.html">
+                                          <h1>More Gallery</h1>
+                                    </a>
+                                    <div class="w-10 h-[1px] bg-white"></div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+      </section>
+
+      <script src="../js/main.js"></script>
+</body>
+</html>
+

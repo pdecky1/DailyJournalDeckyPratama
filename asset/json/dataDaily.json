@@ -1,0 +1,44 @@
+[
+      {
+            "id":"1",
+            "image": "../asset/images/image-1.png",
+            "title": "16 - 02 - 2024 | OnBoarding",
+            "deskripsi" : "Hari ini, saya mengikuti kegiatan National Onboarding Program Magang dan Studi Independen Bersertifikat (MSIB) Angkatan 6 Tahun 2024  melalui kanal Youtube Ditjen Diktiristek, dalam kegiatan ini saya mendapatkan informasi yang beragam dari pengenalan program MSIB dan informasi terkait program MSIB batch 6  kali ini, kemudian ada pesan-pesan sambutan"
+      },
+      {
+            "id":"2",
+            "image": "../asset/images/image-1.png",
+            "title": "19 - 02 - 2024",
+            "deskripsi" : "Hari ini, saya mengikuti kegiatan Onboarding di kantor Arkatama dengan dibarengi pemberian informasi tata tertib, PKWTT, NDA, flow kerja di Arkatama dan, disusul dengan pengenalan mentor, PIC, dan perkenalan antar teman magang, dilanjutkan dengan pemberian Informasi terkait Silabus, Environment, Git Flow, Code principle, guideline dan code documentation"
+      },
+      {
+            "id":"3",
+            "image": "../asset/images/image-1.png",
+            "title": "20 - 02 - 2024",
+            "deskripsi" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      },
+      {
+            "id":"4",
+            "image": "../asset/images/image-1.png",
+            "title": "21 - 02 - 2024",
+            "deskripsi" : "Hari ini, saya Melanjutakan task sebelumnya dengan mengerjakan Memperbaiki function render, Membuat fungsi edit mahasiswa, Membuat fungsi show mahasiswa, Membuat fungsi delete mahasiswa, Upload task ke Gitlab"
+      },
+      {
+            "id":"5",
+            "image": "../asset/images/image-1.png",
+            "title": "22 - 02 - 2024",
+            "deskripsi" : "Hari ini, saya Melanjutakan task sebelumnya dengan mengerjakan  Melakukan perbaikan style layout tabel dan modal, Upload file .env.example, Memperbaiki bug ketika delete dan update yang tidak sesuai dengan  $id"
+      },
+      {
+            "id":"6",
+            "image": "../asset/images/image-1.png",
+            "title": "23 - 02 - 2024",
+            "deskripsi" : "Hari ini, saya melajutkan task sebelumnya dengan Implementasi lifewire:form, menambahkan filter untuk pencarian, present task crud mahasiswa"
+      },
+      {
+            "id":"7",
+            "image": "../asset/images/image-1.png",
+            "title": "26 - 02 - 2024 | OnBoarding",
+            "deskripsi" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      }
+]
